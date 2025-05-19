@@ -2,142 +2,76 @@
 
 This repository contains a collection of projects, assignments, and implementations from my Programming Languages coursework at Ariel University.
 
+## Repository Organization Note
+
+This repository is organized by exercises, where each exercise is contained in its own folder (Exercise_X). This structure provides a clean organization of the different programming language concepts explored in each assignment.
+
 ## Overview
 
 The Programming Languages course explores the design, implementation, and theory of programming languages across different paradigms. This repository includes implementations, comparisons, and analyses of various programming languages and their underlying principles.
 
 ## Repository Structure
 
-The repository is organized by language paradigms and assignments:
+The repository is organized by exercises and topics:
 
-- **Imperative Languages**: Projects and examples in C, Pascal, etc.
-- **Object-Oriented Languages**: Projects and examples in Java, C++, etc.
-- **Functional Languages**: Projects and examples in Haskell, Lisp, etc.
-- **Logic Languages**: Projects and examples in Prolog, etc.
-- **Scripting Languages**: Projects and examples in Python, Ruby, etc.
-- **Assignments**: Formal coursework assignments
-  - **Assignment 1**: [Brief description]
-  - **Assignment 2**: [Brief description]
-- **Language Comparisons**: Analysis and comparison of different language features
+- **Exercise_2**: Implementation of a postfix AE interpreter and List Expressions (LE) parser and evaluator
 
 ## Key Topics Covered
 
 - **Language Paradigms**:
-  - Imperative Programming
-  - Object-Oriented Programming
   - Functional Programming
+  - Object-Oriented Programming
   - Logic Programming
-  - Scripting
-  - Event-Driven Programming
+  - Imperative Programming
 
 - **Language Design and Implementation**:
   - Syntax and semantics
+  - Parsing and evaluation
   - Type systems
-  - Memory management
-  - Control structures
   - Abstraction mechanisms
 
-- **Language Processing**:
-  - Lexical analysis
-  - Parsing
-  - Semantic analysis
-  - Code generation
-  - Optimization
+- **Programming Concepts**:
+  - List processing
+  - Expression evaluation
+  - Abstract syntax trees
+  - Interpreters and compilers
 
-- **Runtime Systems**:
-  - Execution models
-  - Memory models
-  - Garbage collection
-  - Virtual machines
+## Exercise Details
 
-- **Modern Language Features**:
-  - Generics and templates
-  - Higher-order functions
-  - Pattern matching
-  - Concurrency models
-  - Meta-programming
+### Exercise 2: Postfix AE and List Expressions (LE)
 
-## Technologies and Languages Studied
+- **Postfix AE Interpreter**: Implementation of an interpreter for arithmetic expressions in postfix notation, including power and square operations.
+- **List Expressions (LE) Parser and Evaluator**: Implementation of a parser and evaluator for list expressions with support for list, append, and cons operations.
 
-- **C/C++**: For imperative and OOP examples
-- **Java**: For OOP examples
-- **Python**: For scripting examples
-- **Haskell**: For functional programming examples
-- **Prolog**: For logic programming examples
-- **Scheme/Lisp**: For functional programming and meta-programming
-- **ANTLR**: For building parsers and language tools
-- **LLVM**: For compiler implementation examples
+## Technologies and Languages Used
+
+- **Racket**: For functional programming exercises and implementation of interpreters
+- **PL Package**: Extension for Racket providing type checking and language features
 
 ## Getting Started
 
 ### Prerequisites
 
-Depending on the language:
-- C/C++ compiler (GCC, Clang)
-- JDK for Java
-- Python interpreter
-- Haskell compiler (GHC)
-- Prolog interpreter
-- Scheme/Lisp interpreter
+- Racket programming language with PL package installed
+- DrRacket or another Racket environment
 
 ### Running Examples
-
-Each language folder contains instructions for compiling and running examples:
 
 ```bash
 # Clone this repository
 git clone https://github.com/YairRaviv/Programming_Languages.git
 
-# Navigate to a specific language example
-cd Programming_Languages/Functional/Haskell
+# Navigate to a specific exercise
+cd Programming_Languages/Exercise_2
 
-# Follow the README instructions for that language
+# Open the .rkt file in DrRacket or run it using the Racket interpreter
+racket 316283043_315708370_3.rkt
 ```
-
-## Example Projects
-
-### Mini Language Interpreter
-
-A small interpreter built from scratch, demonstrating:
-- Lexical analysis
-- Parsing
-- Abstract syntax trees
-- Evaluation
-
-### Language Feature Comparison
-
-A detailed comparison of how different languages implement:
-- Inheritance and polymorphism
-- Type systems
-- Exception handling
-- Concurrency models
-
-### Custom Domain-Specific Language (DSL)
-
-Implementation of a small DSL for a specific domain, including:
-- Language design
-- Parser implementation
-- Interpreter
-- Example programs
 
 ## Course Information
 
 - **Course**: Programming Languages
 - **Institution**: Ariel University
-- **Instructor**: [Instructor Name]
-- **Academic Year**: [Year]
-
-## Language Analysis Criteria
-
-The repository includes analysis of languages based on:
-- Readability and writability
-- Reliability
-- Cost (development, maintenance)
-- Portability
-- Performance
-- Expressiveness
-- Type safety
-- Memory safety
 
 ## Learning Outcomes
 
@@ -146,7 +80,6 @@ The repository includes analysis of languages based on:
 - Analyze and compare different language features
 - Implement language processors and interpreters
 - Choose appropriate languages for specific problem domains
-- Appreciate the evolution and history of programming languages
 
 ## License
 
